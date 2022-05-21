@@ -1,0 +1,29 @@
+{
+  "name": "playwright-jest-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiZil/playwright-jest-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiZil/playwright-jest-tutorial/issues"
+  },
+  "homepage": "https://github.com/AndriiZil/playwright-jest-tutorial#readme",
+  "dependencies": {
+    "@jest/globals": "^28.1.0",
+    "expect": "^28.1.0",
+    "jest": "^28.1.0",
+    "playwright": "^1.22.2",
+    "prettier": "^2.6.2"
+  }
+}
